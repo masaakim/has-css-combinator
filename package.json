@@ -1,0 +1,19 @@
+{
+  "name": "has-css-combinator",
+  "version": "0.0.1",
+  "description": "Check if a selector has combinator",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/has-css-combinator/git"
+  },
+  "keywords": ["css","selector","combinator"],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
