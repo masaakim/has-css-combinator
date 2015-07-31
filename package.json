@@ -1,6 +1,6 @@
 {
   "name": "has-css-combinator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Check if a selector has combinator",
   "main": "index.js",
   "scripts": {
