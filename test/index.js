@@ -1,6 +1,38 @@
 var test = require('tape')
-var has-css-combinator = require('..')
+var hasCombinator = require('..')
 
-test('description', function (t) {
+test('p+a', function (t) {
+    var selector = 'p+a'
+    t.equal(hasCombinator(selector), true)
+    t.end()
+})
+
+test('p +a', function (t) {
+    var selector = 'p +a'
+    t.equal(hasCombinator(selector), true)
+    t.end()
+})
+
+test('p+ a', function (t) {
+    var selector = 'p+ a'
+    t.equal(hasCombinator(selector), true)
+    t.end()
+})
+
+test('p + a', function (t) {
+    var selector = 'p + a'
+    t.equal(hasCombinator(selector), true)
+    t.end()
+})
+
+test('p ~ a', function (t) {
+    var selector = 'p + a'
+    t.equal(hasCombinator(selector), true)
+    t.end()
+})
+
+test('p > a', function (t) {
+    var selector = 'p + a'
+    t.equal(hasCombinator(selector), true)
     t.end()
 })

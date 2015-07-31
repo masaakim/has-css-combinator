@@ -20,5 +20,7 @@
   "dependencies": {
     "is-css-combinator": "^0.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "tape": "^4.0.1"
+  }
 }
